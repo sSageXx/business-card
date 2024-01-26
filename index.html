@@ -10,6 +10,12 @@
         <link rel="stylesheet" href="src/styles.css">
     </head>
     <body>
+    <audio id="player" src="/audio/driftveil_city.mp3"></audio>
+    <div>
+        <button class="player-btn" onclick="document.getElementById('player').play()">Play</button>
+        <button class="player-btn" onclick="document.getElementById('player').pause()">Pause</button>
+        <button class="player-btn" onclick="document.getElementById('player').muted=!document.getElementById('player').muted">Mute/ Unmute</button>
+    </div>
         <div class="card">
             <img class="profile-img" src="/images/Carlo_ProfilePic_2022.jpg" alt="Carlo Stefano Torres Gabrielli Profile Pic">
             <div class="info-text">
